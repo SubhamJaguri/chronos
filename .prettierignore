@@ -1,0 +1,8 @@
+node_modules/
+.next/
+out/
+coverage/
+pnpm-lock.yaml
+src/db/migrations/
+# Verbatim shared contract; other agents build against this exact text.
+src/core/domain.ts

@@ -1,0 +1,48 @@
+{
+  "name": "chronos",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "University timetable generation platform: web app, academic schema, solver and validator foundation",
+  "packageManager": "pnpm@11.21.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate"
+  },
+  "dependencies": {
+    "bullmq": "^6.3.12",
+    "cpsat-js": "^1.4.0",
+    "drizzle-orm": "^0.45.4",
+    "exceljs": "^4.4.0",
+    "ioredis": "^6.0.0",
+    "next": "^15.5.27",
+    "postgres": "^3.4.9",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.8",
+    "@eslint/eslintrc": "^3.3.7",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "drizzle-kit": "^0.31.11",
+    "eslint": "^9.39.0",
+    "eslint-config-next": "^15.5.27",
+    "prettier": "^3.9.10",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.3"
+  }
+}

@@ -1,0 +1,6 @@
+allowBuilds:
+  esbuild: true
+  msgpackr-extract: true
+  unrs-resolver: true
+minimumReleaseAgeExclude:
+  - prettier@3.9.10
